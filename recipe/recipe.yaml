@@ -31,7 +31,7 @@ requirements:
     - click-plugins
     - pyarrow
     - python-duckdb
-    - duckdb =1.5.1
+    - duckdb >=1.5
     - pandas
     - fsspec
     - rich
@@ -50,6 +50,8 @@ requirements:
     - lxml
     - idna
     - urllib3
+    - pmtiles
+    - msgpack-python
     # Not in the metadata.
     - shapely
 
