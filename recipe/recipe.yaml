@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.5.0"
+  version: "1.6.0"
 
 package:
   name: geoparquet-io
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/geoparquet/geoparquet-io/archive/v${{ version }}.tar.gz
-  sha256: 69b6748e43d0325e54c0c623e737c7dfc25ebb115d9144b1efcbf6b34ccaf7b8
+  sha256: cf4c918f6d35cccedbc9b7a34c45d440969163fcfaf0b5d04f2b8ba140f548cf
 
 build:
   number: 0
